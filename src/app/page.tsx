@@ -1,6 +1,7 @@
 import { getProducts } from '@/lib/db';
 import Link from 'next/link';
 
+export const dynamic = 'force-dynamic';
 export const metadata = {
   title: 'Aura Products | Premium Store',
 };

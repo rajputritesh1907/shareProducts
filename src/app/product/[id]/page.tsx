@@ -3,6 +3,7 @@ import { notFound, redirect } from 'next/navigation';
 import ProductClientPage from './ProductClientPage';
 import { getSession } from '@/lib/auth';
 
+export const dynamic = 'force-dynamic';
 export const metadata = {
     title: 'Product Details | Aura',
 };
